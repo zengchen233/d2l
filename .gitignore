@@ -1,4 +1,4 @@
 # 移除不必要的文件和文件夹
 */.ipynb_checkpoints
-*/*/.ipynb_checkpoints
+*/pytorch/chapter?/.ipynb_checkpoints
 .DS_Store
