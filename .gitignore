@@ -1,3 +1,4 @@
 # 移除不必要的文件和文件夹
 **/.ipynb_checkpoints
+./动手学深度学习/data
 .DS_Store
