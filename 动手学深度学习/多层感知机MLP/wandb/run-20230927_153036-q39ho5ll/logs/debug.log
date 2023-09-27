@@ -1,0 +1,47 @@
+2023-09-27 15:30:36,373 INFO    MainThread:12363 [wandb_setup.py:_flush():76] Current SDK version is 0.15.11
+2023-09-27 15:30:36,374 INFO    MainThread:12363 [wandb_setup.py:_flush():76] Configure stats pid to 12363
+2023-09-27 15:30:36,374 INFO    MainThread:12363 [wandb_setup.py:_flush():76] Loading settings from /Users/zengchen/.config/wandb/settings
+2023-09-27 15:30:36,374 INFO    MainThread:12363 [wandb_setup.py:_flush():76] Loading settings from /Users/zengchen/编程/日常代码/动手学深度学习/动手学深度学习/多层感知机MLP/wandb/settings
+2023-09-27 15:30:36,374 INFO    MainThread:12363 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-09-27 15:30:36,374 INFO    MainThread:12363 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-09-27 15:30:36,374 INFO    MainThread:12363 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-09-27 15:30:36,374 INFO    MainThread:12363 [wandb_init.py:_log_setup():528] Logging user logs to /Users/zengchen/编程/日常代码/动手学深度学习/动手学深度学习/多层感知机MLP/wandb/run-20230927_153036-q39ho5ll/logs/debug.log
+2023-09-27 15:30:36,374 INFO    MainThread:12363 [wandb_init.py:_log_setup():529] Logging internal logs to /Users/zengchen/编程/日常代码/动手学深度学习/动手学深度学习/多层感知机MLP/wandb/run-20230927_153036-q39ho5ll/logs/debug-internal.log
+2023-09-27 15:30:36,374 INFO    MainThread:12363 [wandb_init.py:init():568] calling init triggers
+2023-09-27 15:30:36,374 INFO    MainThread:12363 [wandb_init.py:init():575] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.0005, 'weight_decay': 0.08, 'batch_size': 256, 'total_run': 500, 'network': 'in->256->16->64'}
+2023-09-27 15:30:36,374 INFO    MainThread:12363 [wandb_init.py:init():593] re-initializing run, found existing run on stack: 3fcmz7f0
+2023-09-27 15:30:36,376 INFO    MainThread:12363 [wandb_run.py:_finish():1934] finishing run zengchen/calofornia_house_predict/3fcmz7f0
+2023-09-27 15:30:36,376 INFO    MainThread:12363 [jupyter.py:save_history():445] not saving jupyter history
+2023-09-27 15:30:36,376 INFO    MainThread:12363 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-09-27 15:30:36,376 INFO    MainThread:12363 [wandb_init.py:_jupyter_teardown():456] cleaning up jupyter logic
+2023-09-27 15:30:36,377 INFO    MainThread:12363 [wandb_run.py:_atexit_cleanup():2168] got exitcode: 0
+2023-09-27 15:30:36,377 INFO    MainThread:12363 [wandb_run.py:_restore():2151] restore
+2023-09-27 15:30:36,377 INFO    MainThread:12363 [wandb_run.py:_restore():2157] restore done
+2023-09-27 15:30:45,167 INFO    MainThread:12363 [wandb_run.py:_footer_history_summary_info():3554] rendering history
+2023-09-27 15:30:45,167 INFO    MainThread:12363 [wandb_run.py:_footer_history_summary_info():3586] rendering summary
+2023-09-27 15:30:45,176 INFO    MainThread:12363 [wandb_run.py:_footer_sync_info():3513] logging synced files
+2023-09-27 15:30:45,665 INFO    MainThread:12363 [wandb_init.py:init():618] starting backend
+2023-09-27 15:30:45,666 INFO    MainThread:12363 [wandb_init.py:init():622] setting up manager
+2023-09-27 15:30:45,669 INFO    MainThread:12363 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2023-09-27 15:30:45,669 INFO    MainThread:12363 [wandb_init.py:init():628] backend started and connected
+2023-09-27 15:30:45,680 INFO    MainThread:12363 [wandb_run.py:_label_probe_notebook():1276] probe notebook
+2023-09-27 15:30:45,681 INFO    MainThread:12363 [wandb_run.py:_label_probe_notebook():1286] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-09-27 15:30:45,681 INFO    MainThread:12363 [wandb_init.py:init():720] updated telemetry
+2023-09-27 15:30:45,718 INFO    MainThread:12363 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2023-09-27 15:30:47,248 INFO    MainThread:12363 [wandb_run.py:_on_init():2220] communicating current version
+2023-09-27 15:30:47,904 INFO    MainThread:12363 [wandb_run.py:_on_init():2229] got version response 
+2023-09-27 15:30:47,904 INFO    MainThread:12363 [wandb_init.py:init():804] starting run threads in backend
+2023-09-27 15:30:48,807 INFO    MainThread:12363 [wandb_run.py:_console_start():2199] atexit reg
+2023-09-27 15:30:48,807 INFO    MainThread:12363 [wandb_run.py:_redirect():2054] redirect: wrap_raw
+2023-09-27 15:30:48,807 INFO    MainThread:12363 [wandb_run.py:_redirect():2119] Wrapping output streams.
+2023-09-27 15:30:48,808 INFO    MainThread:12363 [wandb_run.py:_redirect():2144] Redirects installed.
+2023-09-27 15:30:48,808 INFO    MainThread:12363 [wandb_init.py:init():845] run started, returning control to user process
+2023-09-27 15:30:48,811 INFO    MainThread:12363 [wandb_watch.py:watch():51] Watching
+2023-09-27 15:39:10,817 INFO    MainThread:12363 [wandb_run.py:_finish():1934] finishing run zengchen/kaggle_predict/q39ho5ll
+2023-09-27 15:39:10,817 INFO    MainThread:12363 [wandb_run.py:_atexit_cleanup():2168] got exitcode: 0
+2023-09-27 15:39:10,818 INFO    MainThread:12363 [wandb_run.py:_restore():2151] restore
+2023-09-27 15:39:10,818 INFO    MainThread:12363 [wandb_run.py:_restore():2157] restore done
+2023-09-27 15:39:21,687 INFO    MainThread:12363 [wandb_run.py:_footer_history_summary_info():3554] rendering history
+2023-09-27 15:39:21,689 INFO    MainThread:12363 [wandb_run.py:_footer_history_summary_info():3586] rendering summary
+2023-09-27 15:39:21,702 INFO    MainThread:12363 [wandb_run.py:_footer_sync_info():3513] logging synced files
