@@ -1,5 +1,0 @@
-network: MLP(
-  (layer1): Linear(in_features=470, out_features=256, bias=True)
-  (layer2): Linear(in_features=256, out_features=16, bias=True)
-  (out): Linear(in_features=16, out_features=1, bias=True)
-)
